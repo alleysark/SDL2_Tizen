@@ -38,6 +38,14 @@ BuildRequires:  pkgconfig(opengl-es-20)
 BuildRequires:  binutils-devel
 BuildRequires:  which
 BuildRequires:  autoconf
+#BuildRequires: alsa
+#BuildRequires: alsa-utils
+#BuildRequires: alsa-scenario
+#BuildRequires: alsa-scenario-devel
+BuildRequires: pulseaudio
+BuildRequires: pulseaudio-libs
+BuildRequires: pulseaudio-libs-devel
+BuildRequires: pulseaudio-utils
 
 
 %description
